@@ -6,21 +6,27 @@
     padding: 0;
     box-sizing: border-box;
     border-radius: 60%;
-    border:  10px solid rgb(236, 5, 121);
-    max-width: 25vw;
+    border:  10px solid #ED0556;
+    max-width: 100%;
 }
 .scenario{
     height: 100vh;
 }
-.studies{
-    background-color: aqua;
+header{
+    background-color: #212529;
+    color: #F3F3F3;
 }
-.works{
-    background-color: brown;
+#studies{
+    background-color: #ED0556;
+    color:F3F3F3;
 }
-.startup{
-    background-color: chartreuse;
+#jobs{
+    background-color: #F3F3F3;
+    color:black;
 }
-.contact{
-    background-color: darkgoldenrod;
+#startup{
+    background-color: #01EBAC;
+}
+#contact{
+    background-color: #696969;
 }
