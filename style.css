@@ -29,3 +29,6 @@ header{
 #contact{
     background-color: #696969;
 }
+.cardImg{
+    max-height: 200px;
+}
