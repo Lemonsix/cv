@@ -2,33 +2,82 @@
     margin: 0;
     padding: 0;
 }
+html,body{
+    height:100%;
+     min-height:100%; 
+    }
+body{
+    background-color: #212529!important;
+}
+.contenedor{
+    box-sizing: border-box;
+    min-height: 95vh;
+    display: flex;
+    flex-direction: row!important;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
+    min-height: 100%;
+   
+}
 #profilePic{
-    padding: 0;
     box-sizing: border-box;
     border-radius: 60%;
-    border:  10px solid #ED0556;
+    border:  0.5rem solid #ED0556;
+    min-width: 300px;
+    min-height: 300px;
     max-width: 100%;
 }
-.scenario{
-    height: 120vh;
+#profilePicDiv{
+    display: inline;
+    box-sizing: border-box;
+    justify-content: end;
+    width: 50%;
+    padding:10%;
 }
-header{
-    background-color: #212529;
+.descripcionAboutDiv{
+    display: inline;
+    box-sizing: border-box;
+    justify-content: start;
+    width: 50%;
     color: #F3F3F3;
 }
-#studies{
-    background-color: #ED0556;
-}
-#jobs{
-    background-color: #F3F3F3;
-    color:black;
-}
-#startup{
-    background-color: #01EBAC;
-}
-#contact{
-    background-color: #696969;
-}
+
 .cardImg{
     max-height: 200px;
+}
+.cardBoard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    min-width: 90vw;
+    min-height: 90vh;
+    overflow:visible;
+}
+.descripcionAboutDiv > ul> li{
+    list-style: none;
+}
+a:link{
+    color:#F3F3F3;
+    text-decoration: none;
+}
+a{
+    color: #7a7a7a!important;
+    text-decoration: none!important;
+}
+a:active {
+    color: #7a7a7a;
+    text-decoration: none;
+  }
+.card-body{
+    background-color: #7a7a7a;
+    height: 100%;
+  }
+.leftTextDiv{
+    display: flex;
+    width: 50%;
+    justify-content: center;
 }
