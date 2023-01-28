@@ -1,0 +1,33 @@
+[
+  {
+    "job": "Administrativo General",
+    "place": "SM&S S.R.L",
+    "duties": [
+      "Cuentas corrientes de clientes y proveedores",
+      "Facturación, planillas de IVA, pago de VEP, homebanking empresas.",
+      "Ventas",
+      "Compras Industriales",
+      "Reparación de PC",
+      "Dibujo de planos en Autodesk Autocad y diseño industrial en Autodesk Fusion 360"
+    ],
+    "start-date": "01-03-2013",
+    "finish-date": "19-02-2023",
+    "img-src": "src/img/logo_smys.png"
+  },
+  {
+    "job": "Diseñador Industrial",
+    "place": "SixLabs",
+    "duties": ["Diseño Industrial", "Impresion 3D"],
+    "start-date": "01-08-2022",
+    "finish-date": "presente",
+    "img-src": "src/img/logo_sixlabs.png"
+  },
+  {
+    "job": "Desarrollador Full Stack",
+    "place": "Red Uno S.R.L",
+    "duties": ["PHP", "Laravel", "MySQL", "Bootstrap", "Desarrollo de sistemas backoffice"],
+    "start-date": "23-01-2023",
+    "finish-date": "presente",
+    "img-src": "src/img/logo_reduno.png"
+  }
+]

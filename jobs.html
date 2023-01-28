@@ -1,126 +1,30 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CV</title>
-  <link rel="stylesheet" href="style.css" />
-  <!-- Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-    crossorigin="anonymous"></script>
-</head>
-
-<body>
-  <nav class="navbar navbar-expand-lg bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand">Alan G. Ascorti</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" href="index.html">Acerca de Mi</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="education.html">Estudios</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Trabajos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contacto</a>
-          </li>
-        </ul>
+  <body id="bodyId">
+    <div class="contenedor">
+      <div class="cardBoard d-flex flex-fill align-items-center justify-content-evenly" id="cardBoardId">
+       <!-- Se insertan por script las cartas de los trabajos-->
       </div>
     </div>
-  </nav>
-
-  <div class="contenedor">
-    <div class="cardBoard">
-    
-
-      <!-- Tarjeta 1-->
-      <div class="card border-dark mb-3" style="max-width: 540px">
-        <div class="row g-0 flex-grow-1">
-          <div class="col-md-4 card-header d-flex align-items-center justify-content-center">
-            <img src="src/img/logo_smys.jpg" class="img-fluid cardImg" alt="Logo SM y S" />
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Administrativo general</h5>
-              <p class="card-text">SMyS SRL</p>
-              <ul>
-                <li>Cuentas corrientes de clientes y proveedores</li>
-                <li>
-                  Facturación, planillas de IVA, pago de VEP, homebanking
-                  empresas.
-                </li>
-                <li>Ventas</li>
-                <li>Compras Industriales</li>
-                <li>Reparación de PC</li>
-                <li>
-                  Dibujo de planos en Autodesk Autocad y diseño industrial en
-                  Autodesk Fusion 360
-                </li>
-              </ul>
-              <p class="card-text">
-                <small class="text-muted"><strong>03/2013 - 19/02/2023</strong></small>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Tarjeta 2-->
-      <div class="card border-dark mb-3" style="max-width: 540px">
-        <div class="row g-0 flex-grow-1">
-          <div class="col-md-4 card-header d-flex align-items-center justify-content-center">
-            <img src="src/img/logo_sixlabs.png" class="img-fluid rounded-start cardImg" alt="Logo SM y S" />
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Diseñador Industrial</h5>
-              <p class="card-text">SixLabs (startup propio)</p>
-              <ul>
-                <li>Diseño Industrial</li>
-                <li>Impresion 3D</li>
-              </ul>
-              <p class="card-text">
-                <small class="text-muted"><strong>03/2013 - 19/02/2023</strong></small>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    
-
-      <!-- Tarjeta 3-->
-      <div class="card border-dark mb-3" style="max-width: 540px">
-        <div class="row g-0 flex-grow-1">
-          <div class="col-md-4 card-header d-flex align-items-center justify-content-center">
-            <img src="src/img/logo_reduno.png" class="img-fluid rounded-start cardImg" alt="Logo Red Uno" />
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Desarrollador Full Stack</h5>
-              <p class="card-text">Red Uno (ISP)</p>
-              <p class="card-text">Desarrollo de sistemas Back-office</p>
-              <p class="card-text align-items-end">
-                <small class="text-muted"><strong>23/01/2023 - presente</strong></small>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-  </div>
-</div>
-</body>
-
+    <script src="/src/js/templates/navBarTemplate.js"></script>
+    <script type="module" src="/src/js/templates/jobsTemplate.js"></script>
+  </body>
 </html>

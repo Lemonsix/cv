@@ -1,0 +1,62 @@
+[
+    {
+        "title":"Egresado Escuela Politecnica",
+        "status":"Egresado",
+        "institute":"Escuela Politécnica 703 José Toschke",
+        "skills":["Programación de PICS en Assembly","Electronica general","Instalaciones eléctricas","Energías renovables"],
+        "start-date":"01-03-2008",
+        "finish-date":"10-12-2012",
+        "img-src":"src/img/logo_703.png",
+        "img-alt":"Logo Politécnica 703"
+    },
+    {
+        "title":"Carrera Java Dev",
+        "status":"Cursando",
+        "institute":"Educación IT",
+        "skills":["Desarrollo web con HTML/CSS","Java","POO","Javascript","MySQL"],
+        "start-date":"01-10-22",
+        "finish-date":"presente",
+        "img-src":"src/img/logo_educacionit.png",
+        "img-alt":"Logo EducacionIT"
+    },
+    {
+        "title":"Certificaciones coding",
+        "status":"Cursando",
+        "institute":"Open BootCamp",
+        "skills":["Fundamentos de Programación","Java","HTML/CSS"],
+        "start-date":"01-10-2022",
+        "finish-date":"presente",
+        "img-src":"src/img/logo_openbootcamp.jpg",
+        "img-alt":"Logo Open Bootcamp"
+    },
+    {
+        "title":"Licenciatura informatica",
+        "status":"StandBy",
+        "institute":"Universidad Nacional de la Patagonia San Juan Bosco",
+        "skills":["Algoritmica","POO","Estructuras de control","Estructuras de Datos","Java"],
+        "start-date":"01-02-2015",
+        "finish-date":"",
+        "img-src":"src/img/logo_unpsjb.png",
+        "img-alt":"Logo Universidad Nacional de la Patagonia San Juan Bosco"
+    },
+    {
+        "title":"Learn JavaScript: Full-Stack from Scratch",
+        "status":"StandBy",
+        "institute":"Udemy",
+        "skills":["HTML/CSS","Javascript","NodeJS","Axios","MongoDB"],
+        "start-date":"01-09-2022",
+        "finish-date":"",
+        "img-src":"src/img/logo_udemy.png",
+        "img-alt":"Logo Udemy"
+    },
+    {
+        "title":"Curso de Programación",
+        "status":"StandBy",
+        "institute":"Argentina Programa",
+        "skills":["Gobstones","Javascript","Ruby","HTML/CSS"],
+        "start-date":"01-08-2022",
+        "finish-date":"",
+        "img-src":"src/img/logo_argprograma.png",
+        "img-alt":"Logo Argentina Programa"
+    }
+]

@@ -51,8 +51,6 @@ body{
 .cardBoard{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-content: space-around;
     min-width: 90vw;
     min-height: 90vh;
     overflow:visible;
